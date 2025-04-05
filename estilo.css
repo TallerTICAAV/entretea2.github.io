@@ -1,0 +1,63 @@
+h1{
+    text-align: center;
+    font-variant: small-caps;
+    border-color: rgb(128,52,13);
+    border-style: solid;
+    border-width: 3px;
+    color: rgb(128,52,13);
+    background-color: rgb(255,255,204);
+    padding: 5px 5px 5px 5px;
+
+}
+
+h1.subt {
+    font-size: 15pt;
+    border-radius: 15pt;
+    padding: 5px 5px 5px 5px;
+}
+
+.Contenido{
+background-color: rgb(245, 246, 255);
+color: rgb(57, 57, 4);
+font-family: 'Times New Roman', Times, serif;
+border: 3pt double;
+border-spacing: 15pt;
+padding: 1pt 1pt 1pt 1pt;
+
+}
+.fs {
+    color:fuchsia;
+    background-color: black;
+    font-family: 'Comic Sans MS';
+}
+
+.dot {
+text-align:center;
+font-size:30pt;
+font-family:"Comic Sans MS";
+ Border-style:dotted;
+ border-width: 10px;
+background-color:fuchsia;
+}
+
+li {
+    list-style-type: square;
+}
+
+div.mc{
+    border: 25pt black dotted;
+    border-image-source: url("../imagenes/diamond-sword-7221585_1280.png");
+
+}
+
+div.cat{
+    border: 25pt black dotted;
+    <i class="em em-cat" aria-role="presentation" aria-label="CAT FACE"></i>
+}
+
+hidden {
+    color:white;
+    background-color: white;
+    padding: 2px 2px 2px 2px;
+
+}

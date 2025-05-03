@@ -25,6 +25,12 @@ border-spacing: 15pt;
 padding: 1pt 1pt 1pt 1pt;
 
 }
+.li {Wolfgang (Extraordinario)
+border-width:1px;
+border-style:dashed;
+border-spacing:dashed;
+padding: 1pt 1pt 1pt 1pt;
+}
 .fs {
     color:fuchsia;
     background-color: black;

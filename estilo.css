@@ -61,3 +61,19 @@ hidden {
     padding: 2px 2px 2px 2px;
 
 }
+
+.lol {
+    font-family: "Comic Sans MS";
+    border-style:double;
+    border-color:fuchsia;
+    border-width:0.12in;
+    margin-top: 1.618cm;
+    margin-bottom: 1.618cm;
+
+
+}
+
+div {
+    margin-top: 1.618cm;
+    margin-bottom: 1.618cm;
+}

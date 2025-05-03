@@ -58,7 +58,6 @@ div.mc{
 
 div.cat{
     border: 25pt black dotted;
-    <i class="em em-cat" aria-role="presentation" aria-label="CAT FACE"></i>
 }
 
 hidden {
@@ -66,4 +65,20 @@ hidden {
     background-color: white;
     padding: 2px 2px 2px 2px;
 
+}
+
+.lol {
+    font-family: "Comic Sans MS";
+    border-style:double;
+    border-color:fuchsia;
+    border-width:0.12in;
+    margin-top: 1.618cm;
+    margin-bottom: 1.618cm;
+
+
+}
+
+div {
+    margin-top: 1.618cm;
+    margin-bottom: 1.618cm;
 }

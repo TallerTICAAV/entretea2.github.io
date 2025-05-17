@@ -1,3 +1,49 @@
+body {
+   background-image: url('imagenes/fondo.png');
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   padding: 25px;
+   position: relative;
+   z-index: 1;
+
+   cursor: url('imagenes/raton.png'), auto;
+
+}
+
+a{
+    cursor: url('imagenes/mano.png'), auto;
+}
+
+h2.titul{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: rgb(63, 24, 4);
+}
+
+h2.intro{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 3px;
+    color: rgb(128,52,13);
+    background-color: rgba(255,255,204,0.85);
+    padding: 5px 5px 5px 5px;
+}
+
+p.text{
+    font-size: 12pt;
+    font-weight: bold;
+    color: black;
+}
+
 h1{
     text-align: center;
     font-variant: small-caps;
@@ -5,7 +51,7 @@ h1{
     border-style: solid;
     border-width: 3px;
     color: rgb(128,52,13);
-    background-color: rgb(255,255,204);
+    background-color: rgba(255,255,204,0.85);
     padding: 5px 5px 5px 5px;
 
 }
@@ -16,21 +62,7 @@ h1.subt {
     padding: 5px 5px 5px 5px;
 }
 
-.Contenido{
-background-color: rgb(245, 246, 255);
-color: rgb(57, 57, 4);
-font-family: 'Times New Roman', Times, serif;
-border: 3pt double;
-border-spacing: 15pt;
-padding: 1pt 1pt 1pt 1pt;
 
-}
-.li {Wolfgang (Extraordinario)
-border-width:1px;
-border-style:dashed;
-border-spacing:dashed;
-padding: 1pt 1pt 1pt 1pt;
-}
 .fs {
     color:fuchsia;
     background-color: black;
@@ -53,14 +85,44 @@ li {
 div.mc{
     border: 25pt black dotted;
     border-image-source: url("../imagenes/diamond-sword-7221585_1280.png");
+    margin:1.618px;
+    background-color: rgba(17, 205, 222, 0.919);
 
 }
 
 div.cat{
     border: 25pt black dotted;
+    border-image-source: url("https://static.vecteezy.com/system/resources/previews/047/591/895/non_2x/face-black-cat-free-png.png");
+    background-color: rgba(147, 17, 222, 0.773);
 }
 
-hidden {
+h2.flow{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: rgb(255, 255, 255);
+}
+
+p.flow{
+    font-size: 12pt;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+div.piano{
+    border: 25pt black dotted;
+    border-image-source: url("https://png.pngtree.com/png-clipart/20231015/original/pngtree-3d-grand-piano-object-png-image_13301791.png");
+    background-color: rgba(222, 174, 17, 0.937);
+}
+
+div.apple{
+    border: 25pt black dotted;
+    border-image-source: url("https://purepng.com/public/uploads/large/purepng.com-fresh-applefoodsweettastyhealthyfruitappleleaf-981524677946vfurf.png");
+    background-color: rgba(222, 51, 17, 0.777);
+}
+
+.hidden {
     color:white;
     background-color: white;
     padding: 2px 2px 2px 2px;
@@ -69,6 +131,7 @@ hidden {
 
 .lol {
     font-family: "Comic Sans MS";
+    color: white;
     border-style:double;
     border-color:fuchsia;
     border-width:0.12in;
@@ -81,4 +144,5 @@ hidden {
 div {
     margin-top: 1.618cm;
     margin-bottom: 1.618cm;
+    text-align:center;
 }

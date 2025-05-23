@@ -82,14 +82,6 @@ li {
     list-style-type: square;
 }
 
-div.mc{
-    border: 25pt black dotted;
-    border-image-source: url("../imagenes/diamond-sword-7221585_1280.png");
-    margin:1.618px;
-    background-color: rgba(17, 205, 222, 0.919);
-
-}
-
 div.cat{
     border: 25pt black dotted;
     border-image-source: url("https://static.vecteezy.com/system/resources/previews/047/591/895/non_2x/face-black-cat-free-png.png");
@@ -114,6 +106,12 @@ div.piano{
     border: 25pt black dotted;
     border-image-source: url("https://png.pngtree.com/png-clipart/20231015/original/pngtree-3d-grand-piano-object-png-image_13301791.png");
     background-color: rgba(222, 174, 17, 0.937);
+}
+
+div.mc{
+    border: 25pt black dotted;
+    border-image-source: url("imagenes/espadad.png");
+    background-color: rgba(17, 205, 222, 0.919);
 }
 
 div.apple{
